@@ -1,33 +1,111 @@
 <!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=h1, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="stylesheet/style.css">
-</head>
-
-<body>
-  <!-- navigation bar -->
-  <navbar class="navbar-container">
-
-    <div class="logo-container">
-      <a href="index.html">Banking</a>
-    </div>
-    <ul class="nav-items">
-      <li class="nav-link"><a href="#">Home</a></li>
-      <li class="nav-link"><a href="#">Service</a></li>
-      <li class="nav-link"><a href="#">employee</a></li>
-      <li class="nav-link"><a href="#">about</a></li>
-      <li class="nav-link"><a href="#">contact us</a></li>
-      <div class="login-register">
-         <a href="#" class="button">login</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC BANK</title>
+    <link rel="stylesheet" href="stylesheet/style.css"/>
+    <!-- Boxicons CSS -->
+    <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2fa5da2dd4.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="sidebar locked">
+      <div class="logo_items flex">
+        <span class="nav_image">
+          <img src="#" alt="LOGO.PNG" />
+        </span>
+        <span class="logo_name">ABC BANK</span>
+        <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
+        <i class="bx bx-x" id="sidebar-close"></i>
       </div>
-    </ul>
-  </navbar>
 
-  <!-- close navigation bar -->
-</body>
+      <div class="menu_container">
+        <div class="menu_items">
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Dashboard</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-home-alt"></i>
+                <span>Overview</span>
+              </a>
+            </li>
+            
+          </ul>
 
+          <ul class="menu_item">
+            
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="fa-solid fa-wallet"></i>
+                <span>Wallet</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <span>Payment</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="fa-solid fa-lock"></i>
+                <span>Security</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Setting</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-flag"></i>
+                <span>Notice Board</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-award"></i>
+                <span>Award</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-cog"></i>
+                <span>Setting</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar_profile flex">
+          <span class="nav_image">
+            <img src="images/profile.jpg" alt="logo_img" />
+          </span>
+          <div class="data_text">
+            <span class="name">ABC BANK</span>
+            <span class="email">abc@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar flex">
+      <i class="bx bx-menu" id="sidebar-open"></i>
+      <input type="text" placeholder="Search..." class="search_box" />
+      <span class="nav_image">
+        <img src="#" alt="logo_img" />
+      </span>
+    </nav>
+  </body>
 </html>
