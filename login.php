@@ -10,7 +10,7 @@ if (isset($_POST['login_button'])) {
     // Retrieve username and password from the form
     $user_name = $_POST['user_name'];
     $password = $_POST['pass'];
-
+ 
     // Fetch the hashed password from the database based on the provided username
     $sql = "SELECT pass FROM employee_signup WHERE user_name = '$user_name'";
     $result = $conn->query($sql);
