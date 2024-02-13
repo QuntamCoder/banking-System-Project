@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($conn->query($sql) === TRUE) {
             $popupMessage = 'Signup successful!';
-            header('Refresh: 3; URL=login.html');
+            header('Refresh: 1; URL=login.html');
 
         } else {
             $popupMessage = 'Error: ' . $conn->error;
