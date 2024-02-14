@@ -87,6 +87,8 @@
                   icon: "error",
                   title: "Oops...",
                   text: "You Have Entered wrong Password !",
+                  confirmButtonText: "OK"
+
                   // footer: '<a href="#">Why do I have this issue?</a>'
                 });
             }
