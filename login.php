@@ -21,8 +21,8 @@
           <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <h2 class="text-center"><strong>Login</strong></h2>
 
-            <div class="form-group"><input class="form-control" name="user_name" placeholder="User name"></div>
-            <div class="form-group"><input class="form-control" name="pass" placeholder="Password"></div>
+            <div class="form-group"><input type="text" class="form-control" name="user_name" placeholder="User name"></div>
+            <div class="form-group"><input type="password" class="form-control" name="pass" placeholder="Password"></div>
             <div class="form-group"><button class="btn btn-secondary btn-block" type="submit" name="login_button">Sign Up</button></div>
             <span>Don't have an account?</span><a class="already" href="signup.php"> Login here.</a>
           </form>
