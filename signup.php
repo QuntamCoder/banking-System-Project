@@ -35,7 +35,7 @@
           </div>
           <div class="form-group"><button class="btn btn-secondary btn-block" type="submit" onclick="popup()">Sign Up</button>
 </div>
-          <a class="already" href="login.php"> Already have an account? Login here.</a>
+          <span>Already have an account?</span><a class="already" href="login.php">  Login here.</a>
         </form>
         <?php
 // Include the database configuration
